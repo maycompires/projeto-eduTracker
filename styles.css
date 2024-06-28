@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5f4b8b; /* Purple color palette */
+    color: #ffffff; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #edae49;
+    font-size: 56px; /* Tamanho da fonte do título */
+    text-align: center; /* Centralizar o texto */
+    margin-top: 20px; /* Espaço acima do título */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px; /* Espaço acima dos formulários */
+}
+
+.formulario {
+    background-color: #7c6aaf; /* Lighter shade of purple */
+    padding: 20px;
+    box-shadow: 0 0 3px 3px #d9d9d9;
+    border-radius: 8px;
+    width: 40%;
+}
+
+.formulario h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 8px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.formulario button {
+    padding: 10px;
+    background-color: #20bf55; /* Purple color palette */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #1ea84c; /* Darker shade on hover */
+}
+
+.listaAlunos,
+.listaCursos {
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #7c6aaf;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 3px #d9d9d9;
+    width: 60%; 
+}
+
+.button-acesso {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-acesso button {
+    padding: 10px;
+    background-color: #20bf55; /* Verde para combinar com o botão */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-acesso button:hover {
+    background-color: #1ea84c; /* Sombra mais escura ao passar o mouse */
+}
+
+.button-acesso a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do botão */
+}
+
+.acesso-form {
+    background-color: #7c6aaf; /* Lighter shade of purple */
+    padding: 20px;
+    box-shadow: 0 0 3px 3px #d9d9d9;
+    border-radius: 8px;
+    width: 30%;
+    margin-top: 20px; /* Espaço acima do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acesso-form h1 {
+    margin-top: 0;
+}
+
+.acesso-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.acesso-form label {
+    margin-bottom: 8px;
+    font-size: 28px; /* Aumentar a fonte */
+    text-align: center; /* Centralizar o texto */
+}
+
+.acesso-form input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.acesso-form button {
+    padding: 10px;
+    background-color: #20bf55; /* Verde */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.acesso-form button:hover {
+    background-color: #1ea84c; /* Sombra mais escura ao passar o mouse */
+}
+
+.button-voltar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-voltar button {
+    width: 100px;
+    padding: 10px;
+    background-color: #20bf55; /* Verde para combinar com o botão */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-voltar button:hover {
+    background-color: #1ea84c; /* Sombra mais escura ao passar o mouse */
+}
+
+.button-voltar a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do botão */
+}
+
+
