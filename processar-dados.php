@@ -33,7 +33,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $descricao = $_POST['descricaoCurso'];
         $cargaHoraria = $_POST['cargaHorariaCurso'];
         $data_atual = date('d/m/Y');
-        date_default_timezone_set('America/Sao_Paulo');
         $hora_atual = date('H:i:s'); 
 
         // PREPARAR COMANDO PARA TABELA CURSO
