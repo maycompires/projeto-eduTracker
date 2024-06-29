@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <h1>Acesso Cadastros</h1>
 <div class="acesso-form">
     <form method="post">
-        <label for="senha">Senha</label>
+        <label for="senha">Senha Administrador</label>
         <input type="password" name="senha" placeholder="Digite a senha de acesso" required>
         <button type="submit">Enviar</button>
     </form>
